@@ -1,0 +1,12 @@
+// for <900px screen displays dont display nav links
+@media screen and (max-width: 900px) {
+    .nav-container .nav-links{
+        display: none;
+    }
+}
+// for >900px screen displays dont display nav hamburger
+@media screen and (min-width: 900px) {
+    .toggle-btn {
+        display: none;
+    }
+}

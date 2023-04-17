@@ -1,6 +1,6 @@
 import './styles.scss';
 
-import Logo from '../../imgs/Logo.jpeg'
+import Logo from '../../imgs/Logo.png'
 
 import { useGlobalContext } from '../../context'
 
@@ -28,7 +28,7 @@ function Navbar() {
 
                 
                 <Links />
-
+                
                 
 
                 <button className='modal-btn toggle-btn' onClick={isNavDropdownOpen ? closeNavDropdown : openNavDropdown}>

@@ -1,3 +1,31 @@
+.nav-container {
+    align-self: center;
+}
+
+.logo {
+    background: linear-gradient(90deg, var(--clr-blue) 50%, var(--clr-red) 50%);;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    height: 200px;
+}
+
+.nav .nav-links {
+    background-color: var(--clr-blue);
+    
+    border-top:3px solid var(--clr-red);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+    height: 50px;
+}
+
 // for <900px screen displays dont display nav links
 @media screen and (max-width: 900px) {
     .nav-container .nav-links{

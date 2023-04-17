@@ -1,0 +1,32 @@
+.footer {
+    background-color: var(--clr-blue);
+    border-bottom:3px solid var(--clr-red);
+    display: flex;
+    justify-content: center;
+   
+}
+
+.facebook-link {
+    color: var(--clr-white);
+    height: 40px;
+    padding: 5px 20px;
+}
+
+.twitter-link {
+    color: var(--clr-white);
+    height: 40px;
+    padding: 5px 0;
+}
+
+.footer .nav-links {
+    background-color: var(--clr-blue);
+    
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    
+    
+    height: 50px;
+}

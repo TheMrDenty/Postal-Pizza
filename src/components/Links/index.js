@@ -23,13 +23,14 @@ function Links() {
 
             return (
                 <li key={index} className='link'>
-                    <a href='#top'>
+                    {/* <a href='#top'> */}
+                    <div href='#top'>
                     <NavLink exact='true' activeclassname='active' to={page[1]} onClick={closeNavDropdown}>
                         <button className='link-btn'>
                             <h2>{page[0]}</h2>
                         </button>
                     </NavLink>
-                    </a>
+                    </div>
                 </li>
                 
             )

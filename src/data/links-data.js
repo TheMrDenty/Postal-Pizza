@@ -9,8 +9,8 @@ const links = [
     {
         id: 1,
         page: [
-            'subjects',
-            '/subjects'
+            'menu',
+            '/menu'
         ],
     },
     {

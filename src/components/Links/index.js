@@ -27,7 +27,7 @@ function Links() {
                     <div href='#top'>
                     <NavLink exact='true' activeclassname='active' to={page[1]} onClick={closeNavDropdown}>
                         <button className='link-btn'>
-                            <h2>{page[0]}</h2>
+                            <h3>{page[0]}</h3>
                         </button>
                     </NavLink>
                     </div>

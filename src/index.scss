@@ -7,27 +7,51 @@
   --clr-blue: #234582;
   --clr-red: #AE3033;
   --clr-black: #0B0B0B;
+  --clr-transparent: #0b0b0ba2;
   // fonts
   --font-primary:  'Schibsted Grotesk', sans-serif;
   // shadows
-  --shadow: 0px 0px 55px 0px #00000075;
+  --shadow: 0px 0px 15px 0px #00000075;
   --shadow-options: 0px 4px 20px 0px #0000002d;
   --shadow-top: 0px 20px 30px 0px #00000075;
-
+  // extras
+  --radius: 20px;
 }
 
 body {
   margin: 0;
-  
+  background-color: var(--clr-white);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1 {
+  font-family: var(--font-primary);
+  /* font-size: 20px; */
+  font-size: calc(18px + 0.690625vw);
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  margin: 0;
+}
+
 h2 {
   font-family: var(--font-primary);
+  /* font-size: 20px; */
   font-size: calc(10px + 0.690625vw);
   font-weight: 600;
+  letter-spacing: 1.5px;
+  margin: 0;
+}
+
+h3 {
+  font-family: var(--font-primary);
+  /* font-size: 20px; */
+  font-size: calc(10px + 0.690625vw);
+  font-weight: 600;
+  margin: 0;
   color: var(--clr-white);
   letter-spacing: 2px;
 }
+
+
 

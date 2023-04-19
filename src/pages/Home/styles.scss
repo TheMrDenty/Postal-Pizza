@@ -12,16 +12,35 @@
 }
 
 .hero-content {
+    width: 100%;
     display: block;
-    
+    margin: 0 3%;
+}
+
+.hero-content button {
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-soft);
+    padding: 10px;
+    color: var(--clr-white);
+    background-color: var(--clr-red);
+    border-style: none;
 }
 
 .accent {
     color: var(--clr-red);
 }
 
+.hero-img {
+    background-color: var(--clr-red);
+    border-radius: var(--radius);
+    padding: 30px;
+    box-shadow: var(--shadow-soft);
+}
+
 .hero-img img{
-    height: 400px;
+    border-radius: var(--radius);
+    height: 300px;
+    box-shadow: var(--shadow);
 }
 
 .categories-container {
@@ -50,20 +69,28 @@
     justify-content: space-around;
 }
 
+.category-card-container {
+    background-color: var(--clr-red);
+    width: 25%;
+    border-radius: var(--radius);
+    margin: 20px;
+}
+
 .category-card {
     position: relative;
     display: flex;
     justify-content: center;
     background-color: var(--clr-red);
     border-radius: var(--radius);
-    width: 250px;
-    padding: 20px;
+    
+    
     margin: 20px;
     box-shadow: var(--shadow);
 }
 
 .category-card img {
-    width: 250px;
+    display: block;
+    width: 100%;
     border-radius: var(--radius);
 }
 
@@ -76,7 +103,7 @@
     border-top-right-radius: var(--radius);
     padding: 5px 0;
     margin: 0;
-    width: 250px;
+    width: 100%;
 }
 
 .contact-container {

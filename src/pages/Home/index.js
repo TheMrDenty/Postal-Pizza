@@ -17,7 +17,9 @@ function Home() {
               In ut venenatis lorem. Nullam a lacus pretium, iaculis magna tincidunt, pellentesque lacus. 
               In id suscipit tellus, vel fringilla augue.
             </p>
-            <button>Menu</button>
+            <button>
+              <h2>Menu</h2>
+            </button>
           </div>
           <div className='hero-img'>
             <img src={OwnersImg} alt="postal pizza's owners"/>
@@ -29,17 +31,23 @@ function Home() {
       <div className='categories-container'>
         <h1>How can we help you?</h1>
         <div className='categories'>
-          <div className='category-card'>
-            <img src={Pizza} alt="pizza"/>
-            <h2>Pizza</h2>
+          <div className='category-card-container'>
+            <div className='category-card'>
+              <img src={Pizza} alt="pizza"/>
+              <h2>Pizza</h2>
+            </div>
           </div>
-          <div className='category-card'>
-            <img src={ChickenWings} alt="pizza"/>
-            <h2>Wings</h2>
+          <div className='category-card-container'>
+            <div className='category-card'>
+              <img src={ChickenWings} alt="pizza"/>
+              <h2>Wings</h2>
+            </div>
           </div>
-          <div className='category-card'>
-            <img src={Specials} alt="pizza"/>
-            <h2>Specials</h2>
+          <div className='category-card-container'>
+            <div className='category-card'>
+              <img src={Specials} alt="pizza"/>
+              <h2>Specials</h2>
+            </div>
           </div>
         </div>
       </div>

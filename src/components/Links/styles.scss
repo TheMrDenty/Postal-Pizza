@@ -1,4 +1,21 @@
+.nav-links-container {
+    background-color: var(--clr-blue);
+    display: flex;
+    justify-content: center;
+}
 
+.nav-links {
+    background-color: var(--clr-blue);
+    
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    
+    
+    height: 50px;
+}
 
 .link-btn {
     background-color: transparent;

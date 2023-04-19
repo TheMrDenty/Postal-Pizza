@@ -26,9 +26,9 @@ function Navbar() {
 
                 
 
-                
-                <Links />
-                
+                <div className='navbar-links'>
+                    <Links />
+                </div>
                 
 
                 <button className='modal-btn toggle-btn' onClick={isNavDropdownOpen ? closeNavDropdown : openNavDropdown}>

@@ -20,6 +20,7 @@
 }
 
 body {
+  padding: 0;
   margin: 0;
   background-color: var(--clr-white);
   -webkit-font-smoothing: antialiased;
@@ -57,6 +58,17 @@ h3 {
   text-transform: capitalize;
 }
 
+h4 {
+  font-family: var(--font-primary);
+  /* font-size: 20px; */
+  font-size: calc(10px + 0.690625vw);
+  font-weight: 600;
+  margin: 0;
+  
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
 p {
   font-family: var(--font-primary);
   /* font-size: 20px; */
@@ -67,5 +79,9 @@ p {
   letter-spacing: .8px;
 }
 
+li {
+  list-style: none;
+  
+}
 
 

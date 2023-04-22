@@ -6,6 +6,39 @@ import Links from '../Links'
 function Footer() {
   return (
     <div className='footer-container'>
+      <div className='hours-container'>
+        <h1>hours</h1>
+        <ul className='hours'>
+          <li>
+            <h4>monday</h4>
+            <p>11:00 AM - 9:00 PM</p>
+          </li>
+          <li>
+            <h4>tuesday</h4>
+            <p>11:00 AM - 9:00 PM</p>
+          </li>
+          <li>
+            <h4>wednesday</h4>
+            <p>11:00 AM - 9:00 PM</p>
+          </li>
+          <li>
+            <h4>thursday</h4>
+            <p>11:00 AM - 9:00 PM</p>
+          </li>
+          <li>
+            <h4>friday</h4>
+            <p>11:00 AM - 9:00 PM</p>
+          </li>
+          <li>
+            <h4>saturday</h4>
+            <p>11:00 AM - 9:00 PM</p>
+          </li>
+          <li>
+            <h4>sunday</h4>
+            <p>11:00 AM - 9:00 PM</p>
+          </li>
+        </ul>
+      </div>
       <div className='footer'>
           <div className='footer-links'>
             <Links />

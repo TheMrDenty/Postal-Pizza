@@ -55,13 +55,13 @@ function Home() {
         </div>
       </div>
 
-      {/* contact */}
-      <div className='contact-container' id='directions'>
-        <div className='contact'>
-          <div className='contact-img'>
+      {/* directions */}
+      <div className='directions-container' id='directions'>
+        <div className='directions'>
+          <div className='directions-img'>
             <img src={OwnersImg} alt="postal pizza's owners"/>
           </div>
-          <div className='contact-content'>
+          <div className='directions-content'>
             <h1><span className='accent'>Pick-up</span> or <span className='accent'>Delivery</span>?</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et pulvinar ipsum. 
               In ut venenatis lorem. Nullam a lacus pretium, iaculis magna tincidunt, pellentesque lacus. 
@@ -72,7 +72,9 @@ function Home() {
             </button>
           </div>
         </div>
+        
       </div>
+      
     </div>
   )
 }

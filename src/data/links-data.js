@@ -16,8 +16,8 @@ const links = [
     {
         id: 2,
         page: [
-            'find us',
-            '/find-us'
+            'directions',
+            '/directions'
         ],
     }
 ]

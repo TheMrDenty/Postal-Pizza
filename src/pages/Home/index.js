@@ -19,7 +19,7 @@ function Home() {
               In id suscipit tellus, vel fringilla augue.
             </p>
             <NavLink exact='true' activeclassname='active' to='/menu'>
-              <button className='menu-btn'>
+              <button className='btn'>
                 <h2>Menu</h2>
               </button>
             </NavLink>
@@ -57,9 +57,22 @@ function Home() {
 
       {/* contact */}
       <div className='contact-container'>
-        <h1>Contact</h1>
+        <div className='contact'>
+          <div className='contact-img'>
+            <img src={OwnersImg} alt="postal pizza's owners"/>
+          </div>
+          <div className='contact-content'>
+            <h1><span className='accent'>Pick-up</span> or <span className='accent'>Delivery</span>?</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et pulvinar ipsum. 
+              In ut venenatis lorem. Nullam a lacus pretium, iaculis magna tincidunt, pellentesque lacus. 
+              In id suscipit tellus, vel fringilla augue.
+            </p>
+            <button className='btn'>
+              <h2><a href='https://www.google.com/maps/dir/Elmira,+New+York/2121+Grand+Central+Ave,+Horseheads,+NY+14845/@42.1543879,-76.8219687' target='_blank' rel="noreferrer">Directions</a></h2>
+            </button>
+          </div>
+        </div>
       </div>
-
     </div>
   )
 }

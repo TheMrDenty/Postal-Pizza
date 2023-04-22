@@ -56,3 +56,15 @@
 .phone-link:hover {
     color: var(--clr-red);
 }
+
+// for <450px screen displays dont display nav links
+@media screen and (max-width: 450px) {
+    .link-btn {
+        padding:  0 5px;
+    }
+    .facebook-link {
+        padding: 5px 5px;
+        
+    }
+    
+}

@@ -33,6 +33,7 @@ h1 {
   font-weight: 600;
   letter-spacing: 1.5px;
   margin: 0;
+  
 }
 
 h2 {
@@ -42,6 +43,7 @@ h2 {
   font-weight: 600;
   letter-spacing: 1.5px;
   margin: 0;
+  text-transform: capitalize;
 }
 
 h3 {
@@ -52,6 +54,7 @@ h3 {
   margin: 0;
   color: var(--clr-white);
   letter-spacing: 2px;
+  text-transform: capitalize;
 }
 
 p {

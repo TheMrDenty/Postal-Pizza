@@ -56,7 +56,7 @@ function Home() {
       </div>
 
       {/* contact */}
-      <div className='contact-container'>
+      <div className='contact-container' id='directions'>
         <div className='contact'>
           <div className='contact-img'>
             <img src={OwnersImg} alt="postal pizza's owners"/>

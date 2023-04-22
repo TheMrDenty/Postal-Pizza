@@ -40,7 +40,13 @@ function Links() {
                     
                 )
             })}
-            
+            <li className='link'>
+                <div>
+                <button className='link-btn'>
+                    <h3><a href='https://www.google.com/maps/dir/Elmira,+New+York/2121+Grand+Central+Ave,+Horseheads,+NY+14845/@42.1543879,-76.8219687' target='_blank' rel="noreferrer">directions</a></h3>
+                    </button>
+                </div>
+            </li>
         </ul>
         <div className='icons'>
             <a href='https://facebook.com/'><FontAwesomeIcon icon={faFacebook} className='facebook-link' size='3x'/></a>

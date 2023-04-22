@@ -13,13 +13,7 @@ const links = [
             '/menu'
         ],
     },
-    {
-        id: 2,
-        page: [
-            'directions',
-            '/directions'
-        ],
-    }
+    
 ]
 
 export default links

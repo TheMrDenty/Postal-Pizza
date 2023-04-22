@@ -4,6 +4,7 @@ import OwnersImg from '../../imgs/owners.png';
 import ChickenWings from '../../imgs/Chicken-Wings.png';
 import Pizza from '../../imgs/Pizza.png';
 import Specials from '../../imgs/Specials.png';
+import { NavLink } from 'react-router-dom';
 
 function Home() {
   return (
@@ -17,9 +18,11 @@ function Home() {
               In ut venenatis lorem. Nullam a lacus pretium, iaculis magna tincidunt, pellentesque lacus. 
               In id suscipit tellus, vel fringilla augue.
             </p>
-            <button>
-              <h2>Menu</h2>
-            </button>
+            <NavLink exact='true' activeclassname='active' to='/menu'>
+              <button className='menu-btn'>
+                <h2>Menu</h2>
+              </button>
+            </NavLink>
           </div>
           <div className='hero-img'>
             <img src={OwnersImg} alt="postal pizza's owners"/>

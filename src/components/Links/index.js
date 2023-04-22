@@ -6,12 +6,12 @@ import links from '../../data/links-data.js'
 
 import { NavLink } from 'react-router-dom';
 
-import { useGlobalContext } from '../../context';
+
 
 // brings in closeNavDropDown function from context
 // maps out links data into a ul of NavLinks that trigger closeNavDropdown on click
 function Links() {
-    const {closeNavDropdown} = useGlobalContext();
+    
   return (
     <div className='nav-links-container'>
         <ul className='nav-links'>
@@ -29,7 +29,7 @@ function Links() {
                     <li key={index} className='link'>
                         {/* <a href='#top'> */}
                         <div href='#top'>
-                            <NavLink exact='true' activeclassname='active' to={page[1]} onClick={closeNavDropdown}>
+                            <NavLink exact='true' activeclassname='active' to={page[1]}>
                                 <button className='link-btn'>
                                     <h3>{page[0]}</h3>
                                 </button>
@@ -44,7 +44,7 @@ function Links() {
         </ul>
         <div className='icons'>
             <a href='https://facebook.com/'><FontAwesomeIcon icon={faFacebook} className='facebook-link' size='3x'/></a>
-            <a href='tel:607-796-2644'><FontAwesomeIcon icon={faPhoneFlip} className='twitter-link' size='3x'/></a>
+            <a href='tel:607-796-2644'><FontAwesomeIcon icon={faPhoneFlip} className='phone-link' size='3x'/></a>
         </div>
     </div>
   )

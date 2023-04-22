@@ -26,7 +26,33 @@
     cursor: pointer;   
     
 }
+.link-btn:hover  h3{
+    color: var(--clr-red);
+}
 .active .link-btn  {
     background-color: var(--clr-red);
+   
+}
+.active .link-btn:hover h3 {
+    color: var(--clr-white);
 }
 
+.facebook-link {
+    color: var(--clr-white);
+    height: 40px;
+    padding: 5px 20px;
+}
+
+.facebook-link:hover {
+    color: var(--clr-red);
+}
+
+.phone-link {
+    color: var(--clr-white);
+    height: 40px;
+    padding: 5px 0;
+}
+
+.phone-link:hover {
+    color: var(--clr-red);
+}

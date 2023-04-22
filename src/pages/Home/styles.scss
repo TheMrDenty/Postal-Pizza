@@ -30,16 +30,24 @@
     color: var(--clr-red);
 }
 
+.menu-btn {
+    cursor: pointer;
+}
+.menu-btn:hover {
+    background-color: var(--clr-blue);
+}
+
 .hero-img {
     background-color: var(--clr-red);
     border-radius: var(--radius);
-    padding: 30px;
+    padding: 2.5%;
+    width: 80%;
     box-shadow: var(--shadow-soft);
 }
 
 .hero-img img{
     border-radius: var(--radius);
-    height: 300px;
+    width: 100%;
     box-shadow: var(--shadow);
 }
 
@@ -52,7 +60,7 @@
 }
 
 .categories-container h1 {
-    width: 30%;
+    width: 60%;
     padding: 15px 0 5px 0;
     color: var(--clr-white);
     margin: auto;
@@ -66,12 +74,12 @@
     width: 90%;
     display: flex;
     margin: auto;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .category-card-container {
     background-color: var(--clr-red);
-    width: 25%;
+    width: 100%;
     border-radius: var(--radius);
     margin: 20px;
     box-shadow: var(--shadow);
@@ -85,8 +93,19 @@
     border-radius: var(--radius);
     
     
-    margin: 20px;
+    margin: 7%;
     box-shadow: var(--shadow);
+}
+
+.category-card:hover h2 {
+    color: var(--clr-red);
+    text-shadow: 1px 1px 15px #0303037d;
+   
+}
+.category-card:hover {
+    box-shadow: var(--halo);
+   
+    cursor: pointer;
 }
 
 .category-card img {
@@ -109,4 +128,29 @@
 
 .contact-container {
     height: 300px;
+}
+
+
+// for <800px screen displays dont display nav links
+@media screen and (max-width: 800px) {
+    .categories {
+        
+        
+        margin: auto;
+        display: inline-block;
+        justify-content: center;
+        border-radius: var(--radius);
+        width: 100%;
+    }
+    .category-card-container {
+        width: 60%;
+        display: block;
+        margin: 20px auto;
+        padding: .01% 0;
+        
+    }
+    .category-card {
+        margin: 6%;
+        
+    }
 }

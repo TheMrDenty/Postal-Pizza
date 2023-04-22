@@ -25,15 +25,9 @@
     border-bottom-right-radius: var(--radius);
     box-shadow: 0px 15px 15px -15px #00000075;
 }
-// for <900px screen displays dont display nav links
-@media screen and (max-width: 900px) {
-    .nav-container .nav-links{
-        display: none;
-    }
-}
-// for >900px screen displays dont display nav hamburger
-@media screen and (min-width: 900px) {
-    .toggle-btn {
-        display: none;
+// for <600px screen displays dont display nav links
+@media screen and (max-width: 600px) {
+    .logo img{
+        height: 150px;
     }
 }

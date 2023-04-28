@@ -1,0 +1,61 @@
+.menu-container {
+    width: 80%;
+    margin: 0 auto;
+}
+.menu-container h4{
+    font-weight: 900;
+}
+.menu-container h4{
+    font-weight: 900;
+}
+.menu-container p{
+    margin: 0;
+}
+
+.bold {
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+table {
+    margin-top: 3%;
+    width: 100%;
+}
+.pricing {
+    width: 10%;
+    text-align: center;
+}
+.title {
+    width: 25%;
+    text-align: start;
+}
+
+
+.menu-accent {
+    display: flex;
+    color: var(--clr-red);
+    text-transform: uppercase;
+    font-weight: 900;
+    
+    
+}
+
+.menu-bold {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.toppings {
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+    h5 {
+        padding-right: .5%;
+    }
+}
+
+.specials-desc {
+    display: flex;
+    justify-self: start;
+    
+}

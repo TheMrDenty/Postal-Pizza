@@ -12,6 +12,10 @@
     margin: 0;
 }
 
+hr {
+    border: 3px solid var(--clr-red);
+}
+
 .bold {
     font-weight: 900;
     text-transform: capitalize;
@@ -45,10 +49,18 @@ table {
     font-weight: 900;
 }
 
-.toppings {
+.toppings, .sauces, .menu-title {
     padding-top: 3%;
     display: flex;
     justify-content: center;
+    h5 {
+        padding-right: .5%;
+    }
+}
+.charges {
+    padding: 3%;
+  
+    text-align: center;
     h5 {
         padding-right: .5%;
     }

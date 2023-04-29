@@ -1,12 +1,13 @@
 import React from 'react'
 import './styles.scss'
+import menu from '../../data/Postal-Pizza-menu.pdf'
 
 function Menu() {
   return (
     <div className='menu-container'>
 
       <div className='menu-title'>
-        <h4 className='menu-accent'>menu</h4>
+        <h1 className='menu-accent'>menu</h1>
         
       </div>
 
@@ -568,6 +569,10 @@ function Menu() {
         <p>$15.00 minimum order is required.</p>
         <p>There is a $3.00 fee in the Horseheads and limited Elmira area.</p>
         <p>Cash prices. Credit cards add 2.9%.</p>
+      </div>
+
+      <div className='menu-btn'>
+        <a href={menu} download><button className='btn'><h2>download menu</h2></button></a>
       </div>
    </div>
 

@@ -4,7 +4,7 @@ import OwnersImg from '../../imgs/owners.png';
 import ChickenWings from '../../imgs/Chicken-Wings.png';
 import Pizza from '../../imgs/Pizza.png';
 import Specials from '../../imgs/Specials.png';
-import { NavLink } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 function Home() {
   return (
@@ -18,11 +18,11 @@ function Home() {
               In ut venenatis lorem. Nullam a lacus pretium, iaculis magna tincidunt, pellentesque lacus. 
               In id suscipit tellus, vel fringilla augue.
             </p>
-            <NavLink exact='true' activeclassname='active' to='/menu'>
+            <Link exact='true' activeclassname='active' to='/menu'>
               <button className='btn'>
                 <h2>Menu</h2>
               </button>
-            </NavLink>
+            </Link>
           </div>
           <div className='hero-img'>
             <img src={OwnersImg} alt="postal pizza's owners"/>
@@ -35,22 +35,28 @@ function Home() {
         <h1>How can we help you?</h1>
         <div className='categories'>
           <div className='category-card-container'>
-            <div className='category-card'>
-              <img src={Pizza} alt="pizza"/>
-              <h2>Pizza</h2>
-            </div>
+            <Link to='/menu'>
+              <div className='category-card'>
+                <img src={Pizza} alt="pizza"/>
+                <h2>Pizza's</h2>
+              </div>
+            </Link>
           </div>
           <div className='category-card-container'>
-            <div className='category-card'>
-              <img src={ChickenWings} alt="pizza"/>
-              <h2>Wings</h2>
-            </div>
+            <Link to='/menu#subs' exact>
+              <div className='category-card' >
+                <img src={ChickenWings} alt="pizza"/>
+                <h2>Subs, Salads, and Sides</h2>
+              </div>
+            </Link>
           </div>
           <div className='category-card-container'>
+            <Link to='/menu#bundles' exact>
             <div className='category-card'>
               <img src={Specials} alt="pizza"/>
-              <h2>Specials</h2>
+              <h2>Bundles</h2>
             </div>
+            </Link>
           </div>
         </div>
       </div>

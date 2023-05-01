@@ -16,6 +16,10 @@ hr {
     border: 3px solid var(--clr-red);
 }
 
+.top-hr {
+    margin-top: 3%;
+}
+
 .bold {
     font-weight: 900;
     text-transform: capitalize;
@@ -49,7 +53,7 @@ table {
     font-weight: 900;
 }
 
-.toppings, .sauces, .menu-title {
+.toppings, .sauces  {
     padding-top: 3%;
     display: flex;
     justify-content: center;
@@ -57,6 +61,12 @@ table {
         padding-right: .5%;
     }
 }
+
+.menu-title{
+    display: flex;
+    justify-content: center;
+}
+
 .charges {
     padding: 3%;
   

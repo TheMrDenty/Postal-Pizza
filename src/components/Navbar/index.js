@@ -13,6 +13,7 @@ import Links from '../Links';
 // brings in functions from context and onClick checks if dropdown is active, if it is then it closes it, if not then it opens it
 function Navbar() {
 
+    
 
     return (
         <div className='nav-container' id='top'>

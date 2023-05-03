@@ -11,7 +11,7 @@
   // fonts
   --font-primary:  'Schibsted Grotesk', sans-serif;
   // shadows
-  --halo: 0px 0px 15px 0px #ffffff53;
+  --halo: 0px 0px 20px 0px #ffffff53;
   --shadow: 0px 0px 15px 0px #00000075;
   --shadow-soft: 0px 0px 15px 0px #00000043;
   --shadow-top: 0px 20px 30px 0px #00000075;
@@ -19,6 +19,9 @@
   --radius: 10px;
 }
 
+html {
+  width: 100%;
+}
 body {
   padding: 0;
   margin: 0;

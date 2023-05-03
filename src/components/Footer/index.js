@@ -1,8 +1,5 @@
-
 import './styles.scss'
 import Links from '../Links'
-
-
 function Footer() {
   return (
     <div className='footer-container'>
@@ -47,5 +44,4 @@ function Footer() {
     </div>
   )
 }
-
 export default Footer

@@ -5,16 +5,11 @@ import menu from '../../data/Postal-Pizza-menu.pdf'
 function Menu() {
   return (
     <div className='menu-container'>
-
       <hr className='top-hr' />
-
       <div className='menu-title'>
         <h1 className='menu-accent'>menu</h1>
-        
       </div>
-
       <hr />
-      
       <table className='std-pizzas' >
         <tbody>
           <tr>
@@ -83,11 +78,9 @@ function Menu() {
           </tr>
         </tbody>
       </table>
-
       <div className='toppings'>
         <p><span className='bold'>toppings -</span> pepperoni, sausage, ham, bacon, meat sauce, mushrooms, peppers, onions, jalapeños, black olives, banana peppers</p>
-      </div>
-      
+      </div>      
       <table className='special-pizzas'>
         <tbody>
           <tr>
@@ -186,12 +179,8 @@ function Menu() {
             <td className='pricing'><p></p></td>
             <td className='pricing'><p>$26.99</p></td>
           </tr>
-        </tbody>
-        
-      </table>
-
-      
-
+        </tbody>        
+      </table>    
       <table className='specials'>
         <tbody>
           <tr>
@@ -237,15 +226,11 @@ function Menu() {
         </tbody>
         
       </table>
-
       <hr className='top-hr' id='subs' />
-
       <div className='menu-title' >
         <h1 className='menu-accent'>subs, salads, and sides</h1>
       </div>
-
       <hr />
-      
       <table className='hot-subs' >
         <tbody>
           <tr>
@@ -322,7 +307,6 @@ function Menu() {
           </tr>
         </tbody>
       </table>
-
       <table className='cold-subs'>
         <tbody>
           <tr>
@@ -375,7 +359,6 @@ function Menu() {
           </tr>
         </tbody>
       </table>
-
       <table className='salads'>
         <tbody>
           <tr>
@@ -412,7 +395,6 @@ function Menu() {
           </tr>
         </tbody>
       </table>
-
       <table className='sides'>
         <tbody>
           <tr>
@@ -481,10 +463,7 @@ function Menu() {
           </tr>
         </tbody>
        
-      </table>
-
-      
-
+      </table>     
       <table className='wings' id='bundles'>
         <tbody>
           <tr>
@@ -513,11 +492,9 @@ function Menu() {
           </tr>
         </tbody>
       </table>
-
       <div className='sauces'>
         <p><span className='bold'>sauces -</span> mild, medium, hot, garlic parm, bbq, honey bbq</p>
       </div>
-
       <table className='beverages'>
         <tbody>
           <tr>
@@ -538,15 +515,11 @@ function Menu() {
           </tr>
         </tbody>
       </table>
-
       <hr className='top-hr' id='subs' />
-
       <div className='menu-title' >
         <h1 className='menu-accent'>bundles</h1>
       </div>
-
       <hr />
-
       <table className='bundles'>
         <tbody>
           <tr>
@@ -583,23 +556,16 @@ function Menu() {
           </tr>
         </tbody>
       </table>
-
-      
-
       <div className='charges'>
         <p>We Deliver for the convenience of our customer.</p>
         <p>$15.00 minimum order is required.</p>
         <p>There is a $3.00 fee in the Horseheads and limited Elmira area.</p>
         <p>Cash prices. Credit cards add 2.9%.</p>
       </div>
-
       <div className='menu-btn'>
         <a href={menu} download><button className='btn'><h2>download menu</h2></button></a>
       </div>
    </div>
-
-
   )
 }
-
 export default Menu

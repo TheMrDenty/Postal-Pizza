@@ -5,7 +5,6 @@ import App from './App';
 import { AppProvider } from './context';
 import { BrowserRouter, useLocation } from 'react-router-dom';
 import { useEffect } from "react";
-
 export default function ScrollToTop() {
   const { pathname } = useLocation();
 
@@ -15,7 +14,6 @@ export default function ScrollToTop() {
 
   return null;
 }
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -27,4 +25,3 @@ root.render(
     </AppProvider>
   </React.StrictMode>
 );
-

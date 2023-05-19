@@ -8,31 +8,31 @@ function Footer() {
         <ul className='hours'>
           <li>
             <h4>monday</h4>
-            <p>11:00 AM - 9:00 PM</p>
+            <p>10:00 AM - 10:00 PM</p>
           </li>
           <li>
             <h4>tuesday</h4>
-            <p>11:00 AM - 9:00 PM</p>
+            <p>10:00 AM - 10:00 PM</p>
           </li>
           <li>
             <h4>wednesday</h4>
-            <p>11:00 AM - 9:00 PM</p>
+            <p>10:00 AM - 10:00 PM</p>
           </li>
           <li>
             <h4>thursday</h4>
-            <p>11:00 AM - 9:00 PM</p>
+            <p>10:00 AM - 10:00 PM</p>
           </li>
           <li>
             <h4>friday</h4>
-            <p>11:00 AM - 9:00 PM</p>
+            <p>10:00 AM - 12:00 AM</p>
           </li>
           <li>
             <h4>saturday</h4>
-            <p>11:00 AM - 9:00 PM</p>
+            <p>10:00 AM - 12:00 AM</p>
           </li>
           <li>
             <h4>sunday</h4>
-            <p>11:00 AM - 9:00 PM</p>
+            <p>10:00 AM - 10:00 PM</p>
           </li>
         </ul>
       </div>

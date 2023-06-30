@@ -41,7 +41,7 @@ function Links() {
             </li>
         </ul>
         <div className='icons'>
-            <a href='https://facebook.com/'><FontAwesomeIcon icon={faFacebook} className='facebook-link' size='3x'/></a>
+            <a href='https://www.facebook.com/profile.php?id=100091276666910'><FontAwesomeIcon icon={faFacebook} className='facebook-link' size='3x'/></a>
             <a href='tel:607-796-2644'><FontAwesomeIcon icon={faPhoneFlip} className='phone-link' size='3x'/></a>
         </div>
     </div>

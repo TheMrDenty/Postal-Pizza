@@ -100,6 +100,14 @@ function Menu() {
             <td className='pricing'><p>$35.99</p></td>
           </tr>
           <tr>
+            <th className='title'><h5>route 6</h5></th>
+            <td className='desc'><p>chicken alfredo</p></td>
+            <td className='pricing'><p></p></td>
+            <td className='pricing'><p></p></td>
+            <td className='pricing'><p></p></td>
+            <td className='pricing'><p></p></td>
+          </tr>
+          <tr>
             <th className='title'><h5>route 90</h5></th>
             <td className='desc'><p>honey mustard & chicken breast</p></td>
             <td className='pricing'><p></p></td>
@@ -123,14 +131,7 @@ function Menu() {
             <td className='pricing'><p></p></td>
             <td className='pricing'><p></p></td>
           </tr>
-          <tr>
-            <th className='title'><h5>route 6</h5></th>
-            <td className='desc'><p>margherita - tomato, mozzarella, basil</p></td>
-            <td className='pricing'><p></p></td>
-            <td className='pricing'><p></p></td>
-            <td className='pricing'><p></p></td>
-            <td className='pricing'><p></p></td>
-          </tr>
+          
           <tr>
             <th className='title'><h5>route 48</h5></th>
             <td className='desc'><p>meat lovers - bacon, ham, sausage, pepperoni</p></td>
@@ -172,6 +173,14 @@ function Menu() {
             <td className='pricing'><p></p></td>
           </tr>
           <tr>
+            <th className='title'><h5>route 84</h5></th>
+            <td className='desc'><p>philly cheesesteak</p></td>
+            <td className='pricing'><p></p></td>
+            <td className='pricing'><p></p></td>
+            <td className='pricing'><p></p></td>
+            <td className='pricing'><p></p></td>
+          </tr>
+          <tr>
             <th className='title'><h5>route 1</h5></th>
             <td className='desc'><p>breakfast pizza - bacon/sausage (sheet only)</p></td>
             <td className='pricing'><p></p></td>
@@ -179,6 +188,7 @@ function Menu() {
             <td className='pricing'><p></p></td>
             <td className='pricing'><p>$26.99</p></td>
           </tr>
+          
         </tbody>        
       </table>    
       <table className='specials'>
@@ -200,8 +210,16 @@ function Menu() {
             <td className='pricing'><p></p></td>
           </tr>
           <tr>
-            <th className='title'><p><span className='bold'>stromboli</span> sauce, pepperoni, sausage, meat sauce, peppers, ham</p></th>
-            <td className='desc'></td>
+            <th className='title'><p><span className='bold'>stromboli</span> </p></th>
+            <td className='desc'><p>sauce, pepperoni, sausage, meat sauce, peppers, ham</p></td>
+            <td className='pricing'><p></p></td>
+            <td className='pricing'><p></p></td>
+            <td className='pricing'><p></p></td>
+            <td className='pricing'><p></p></td>
+          </tr>
+          <tr>
+            <th className='title'><p><span className='bold'>The Supervisor</span> - Steak stromboli </p></th>
+            <td className='desc'><p>steak, red sauce, onions, peppers & mozzarella</p></td>
             <td className='pricing'><p></p></td>
             <td className='pricing'><p></p></td>
             <td className='pricing'><p></p></td>
@@ -226,6 +244,13 @@ function Menu() {
         </tbody>
         
       </table>
+
+      <div className='charges'>
+        <p>We Deliver for the convenience of our customer.</p>
+        <p>$15.00 minimum order is required.</p>
+        <p>There is a $3.00 fee in the Horseheads and limited Elmira area.</p>
+        <p>Cash prices. Credit cards add 2.9%.</p>
+      </div>
       <hr className='top-hr' id='subs' />
       <div className='menu-title' >
         <h1 className='menu-accent'>subs, salads, and sides</h1>
@@ -244,55 +269,47 @@ function Menu() {
           <tr>
             <th className='title'></th>
             <td className='desc'></td>
-            <td className='pricing'><p>$6.99</p></td>
-            <td className='pricing'><p>$9.99</p></td>
             <td className='pricing'></td>
             <td className='pricing'></td>
-          </tr>
-          <tr>
-            <th className='title'><h5>supervisor</h5></th>
-            <td className='desc'><p>meatball</p></td>
-            <td className='pricing'><p></p></td>
-            <td className='pricing'><p></p></td>
-            <td className='pricing'><p></p></td>
-            <td className='pricing'><p></p></td>
+            <td className='pricing'></td>
+            <td className='pricing'></td>
           </tr>
           <tr>
           <th className='title'><h5>mail handlers</h5></th>
             <td className='desc'><p>cheesesteak</p></td>
-            <td className='pricing'><p></p></td>
-            <td className='pricing'><p></p></td>
+            <td className='pricing'><p>$6.99</p></td>
+            <td className='pricing'><p>$9.99</p></td>
             <td className='pricing'><p></p></td>
             <td className='pricing'><p></p></td>
           </tr>
           <tr>
             <th className='title'><h5>rural</h5></th>
             <td className='desc'><p>buffalo chicken</p></td>
-            <td className='pricing'><p></p></td>
-            <td className='pricing'><p></p></td>
+            <td className='pricing'><p>$8.99</p></td>
+            <td className='pricing'><p>$13.99</p></td>
             <td className='pricing'><p></p></td>
             <td className='pricing'><p></p></td>
           </tr>
           <tr>
-            <th className='title'><h5>cca</h5></th>
-            <td className='desc'><p>chicken spedie</p></td>
-            <td className='pricing'><p></p></td>
-            <td className='pricing'><p></p></td>
+            <th className='title'><h5>CCA</h5></th>
+            <td className='desc'><p>chicken spiedie</p></td>
+            <td className='pricing'><p>$8.99</p></td>
+            <td className='pricing'><p>$13.99</p></td>
             <td className='pricing'><p></p></td>
             <td className='pricing'><p></p></td>
           </tr>
           <tr>
             <th className='title'><h5>ptf</h5></th>
             <td className='desc'><p>hot ham and cheese</p></td>
-            <td className='pricing'><p></p></td>
-            <td className='pricing'><p></p></td>
+            <td className='pricing'><p>$6.99</p></td>
+            <td className='pricing'><p>$9.99</p></td>
             <td className='pricing'><p></p></td>
             <td className='pricing'><p></p></td>
           </tr>
           <tr>
             <th className='title'><h5>union stewards</h5></th>
             <td className='desc'><p>johnny burger</p></td>
-            <td className='pricing'><p></p></td>
+            <td className='pricing'><p>$8.99</p></td>
             <td className='pricing'><p></p></td>
             <td className='pricing'><p></p></td>
             <td className='pricing'><p></p></td>
@@ -301,7 +318,7 @@ function Menu() {
           <th className='title'><h5>clerk</h5></th>
             <td className='desc'><p>King Louie, ham, boneless chicken, cheese</p></td>
             <td className='pricing'><p></p></td>
-            <td className='pricing'><p></p></td>
+            <td className='pricing'><p>$13.99</p></td>
             <td className='pricing'><p></p></td>
             <td className='pricing'><p></p></td>
           </tr>
@@ -312,48 +329,48 @@ function Menu() {
           <tr>
             <th className='title'><h4 className='menu-accent'>metris cold subs</h4></th>
             <td className='desc'></td>
-            <td className='pricing'></td>
-            <td className='pricing'></td>
+            <td className='pricing'><p>$6.99</p></td>
+            <td className='pricing'><p>$9.99</p></td>
             <td className='pricing'></td>
             <td className='pricing'></td>
           </tr>
           <tr>
             <th className='title'><h5>maintenance</h5></th>
             <td className='desc'><p>italian</p></td>
-            <td className='pricing'></td>
-            <td className='pricing'></td>
+            <td className='pricing'><p>$6.99</p></td>
+            <td className='pricing'><p>$9.99</p></td>
             <td className='pricing'></td>
             <td className='pricing'></td>
           </tr>
           <tr>
             <th className='title'><h5>post master</h5></th>
             <td className='desc'><p>tuna</p></td>
-            <td className='pricing'></td>
-            <td className='pricing'></td>
+            <td className='pricing'><p>$6.99</p></td>
+            <td className='pricing'><p>$9.99</p></td>
             <td className='pricing'></td>
             <td className='pricing'></td>
           </tr>
           <tr>
             <th className='title'><h5>pse</h5></th>
             <td className='desc'><p>ham and cheese</p></td>
-            <td className='pricing'></td>
-            <td className='pricing'></td>
+            <td className='pricing'><p>$6.99</p></td>
+            <td className='pricing'><p>$9.99</p></td>
             <td className='pricing'></td>
             <td className='pricing'></td>
           </tr>
           <tr>
             <th className='title'><h5>rca</h5></th>
             <td className='desc'><p>turkey</p></td>
-            <td className='pricing'></td>
-            <td className='pricing'></td>
+            <td className='pricing'><p>$6.99</p></td>
+            <td className='pricing'><p>$9.99</p></td>
             <td className='pricing'></td>
             <td className='pricing'></td>
           </tr>
           <tr>
             <th className='title'><h5>fmla</h5></th>
             <td className='desc'><p>veggie</p></td>
-            <td className='pricing'></td>
-            <td className='pricing'></td>
+            <td className='pricing'><p>$6.99</p></td>
+            <td className='pricing'><p>$9.99</p></td>
             <td className='pricing'></td>
             <td className='pricing'></td>
           </tr>
@@ -386,7 +403,7 @@ function Menu() {
             <td className='pricing'></td>
           </tr>
           <tr>
-            <th className='title'><h5>chicken speedie</h5></th>
+            <th className='title'><h5>chicken spiedie</h5></th>
             <td className='desc'></td>
             <td className='pricing'><p>$9.99</p></td>
             <td className='pricing'></td>
@@ -461,6 +478,14 @@ function Menu() {
             <td className='pricing'></td>
             <td className='pricing'><p>3 for $5</p></td>
           </tr>
+          <tr>
+            <th className='title'><h5>going postal</h5></th>
+            <td className='desc'><p>loaded french fries</p></td>
+            <td className='pricing'></td>
+            <td className='pricing'></td>
+            <td className='pricing'></td>
+            <td className='pricing'><p>$6.99</p></td>
+          </tr>
         </tbody>
        
       </table>     
@@ -500,17 +525,17 @@ function Menu() {
           <tr>
             <th className='title'><h4 className='menu-accent'>beverages</h4></th>
             <td className='desc'></td>
-            <td className='pricing'></td>
-            <td className='pricing'></td>
-            <td className='pricing'></td>
+            <td className='pricing'><p className='bold'>SMALL</p></td>
+            <td className='pricing'><p className='bold'>MEDIUM</p></td>
+            <td className='pricing'><p className='bold'>LARGE</p></td>
             <td className='pricing'></td>
           </tr>
           <tr>
             <th className='title'><h5>Pepsi Products</h5></th>
             <td className='desc'></td>
-            <td className='pricing'></td>
-            <td className='pricing'></td>
-            <td className='pricing'></td>
+            <td className='pricing'><p>$1.49</p></td>
+            <td className='pricing'><p>$1.99</p></td>
+            <td className='pricing'><p>$2.99</p></td>
             <td className='pricing'></td>
           </tr>
         </tbody>

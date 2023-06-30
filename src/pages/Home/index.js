@@ -3,8 +3,8 @@ import './styles.scss'
 import OwnersImg from '../../imgs/owners.webp';
 import Location from '../../imgs/location.webp';
 import ChickenWings from '../../imgs/wings2-new.webp';
-import Pizza from '../../imgs/wings1-new.webp';
-import Specials from '../../imgs/wings1-new.webp';
+import Pizza from '../../imgs/Pizza.webp';
+import Specials from '../../imgs/bundle.webp';
 import { HashLink as Link } from 'react-router-hash-link';
 function Home() {
   return (
